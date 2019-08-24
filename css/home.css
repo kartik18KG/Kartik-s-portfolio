@@ -1,0 +1,110 @@
+    @import url('https://fonts.googleapis.com/css?family=Barriecito&display=swap');
+    @import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+    @import url('https://fonts.googleapis.com/css?family=Bungee+Outline|Lobster&display=swap');
+    * {
+        margin: 0;
+    }
+    
+    a:hover {
+        cursor: pointer;
+    }
+    
+    .main {
+        color: #1D3557;
+        background-color: #1D3557;
+        height: 80px;
+        padding-top: 20px;
+    }
+    
+    #name {
+        font-family: 'Barriecito', cursive;
+        font-size: 3rem;
+        margin: 10px;
+        background: #1D3557;
+        background: -webkit-linear-gradient(#FFD166, #F1FAEE);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    #logo {
+        float: right;
+        margin-right: 10px;
+        background: #1D3557;
+        padding-right: 10px;
+        padding-top: 10px;
+    }
+    
+    .below {
+        background-image: url("../images/finalgraphic.jpg");
+        height: calc(100vh - 100px);
+        max-width: 100vw;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+    
+    #welcome {
+        text-align: center;
+        position: absolute;
+        top: 24%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-family: 'Lobster', cursive;
+        font-size: 40px;
+        background: -webkit-linear-gradient(rgb(11, 38, 124), rgb(18, 201, 185));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    #abtme {
+        position: absolute;
+        top: 5%;
+        left: 5%;
+        border: double;
+        border-color: #1D3557;
+        border-radius: 5px;
+    }
+    
+    #abt {
+        text-decoration: none;
+        font-family: 'Bungee Outline', cursive;
+        color: #1D3557;
+        font-size: 30px;
+        cursor: context-menu;
+    }
+    
+    #myprj {
+        position: absolute;
+        top: 5%;
+        left: 43%;
+        border: double;
+        border-color: #1D3557;
+        border-radius: 5px;
+    }
+    
+    #prj {
+        text-decoration: none;
+        font-family: 'Bungee Outline', cursive;
+        color: #1D3557;
+        font-size: 30px;
+        cursor: context-menu;
+    }
+    
+    #cntme {
+        position: absolute;
+        top: 5%;
+        right: 5%;
+        border: double;
+        border-color: #1D3557;
+        border-radius: 5px;
+    }
+    
+    #cnt {
+        text-decoration: none;
+        font-family: 'Bungee Outline', cursive;
+        color: #1D3557;
+        font-size: 30px;
+        cursor: context-menu;
+    }
